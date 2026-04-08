@@ -51,9 +51,9 @@
             <div class="left-main">
                 <div class="top-bar">
                     <!-- <p>Showing xyz recipes</p> -->
-                    <p>Showing <span>248</span> recipes</p>
                 </div>
 
+                <div id="loader">Loading recipes...</div>
                 <div class="straight_caraousel">
                     <!-- Recipes -->
                 </div>
@@ -77,12 +77,27 @@
             </div>
         </div>
     </main>
+    
+    
+    <div id="recipe-popup" class="popup">
 
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-img" />
+            <h3>Ingredients</h3>
+            <ul id="popup-ingredients"></ul>
+            <h3>Instructions</h3>
+            <p id="popup-instructions"></p>
+            <a id="popup-yt" target="_blank">Watch on YouTube</a>
 
+        </div>
 
-    <div>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
     </div>
+
+
+
+
 
     <script src="script.js"></script>
 </body>
