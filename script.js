@@ -1,15 +1,4 @@
 let allMeals=[]
-// let toggle_btn=document.getElementById("theme-toggle");
-
-// toggle_btn.addEventListener("click", function(){
-//     document.body.classList.toggle("dark");
-
-//     if(document.body.classList.contains("dark")) {
-//         toggle_btn.innerText="☀️";
-//     }else{
-//         toggle_btn.innerText="🌙";
-//     }
-// });
 let recipe_list = document.querySelector(".straight_caraousel")
 
 let renderData=(meals)=>{
